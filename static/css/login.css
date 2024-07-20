@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	background-color:none;
+	
+}
+
+body{
+	height: 500px;
+
+	width: 400px;
+
+	margin: 2rem 0 0 30rem;
+
+	border: 2px solid #000;
+	align-items: center;
+
+	border-radius:2rem;
+
+	
+
+}
+
+
+.mb-3{
+	margin: 2rem;
+
+
+}
+
+.form-control{
+	border: 1px solid black;
+}
+
+.btn{
+	margin: 2rem;
+}
+
+
+
+.form-check-input{
+	border: 1px solid black;
+}
+
+
+
+a.anchor {
+    color: white;
+    text-decoration: none;
+}

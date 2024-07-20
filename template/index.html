@@ -1,0 +1,223 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>PGsolve</title>
+    <!-- link to CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <!-- BOX icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo"><i class='bx bx-home'></i>PGsolve</a>
+            <!-- menu icon -->
+            <input type="checkbox" name="" id="menu">
+            <label for="menu"><i class='bx bx-menu' id="menu-icon"></i></label>
+            <!-- nav list -->
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#sales">Sales</a></li>
+                <li><a href="#properties">Properties</a></li>
+            </ul>
+            <!-- login button -->
+            <a href="\login" class="btn">Log In</a>
+        </div>
+    </header>
+    <!--Home -->
+    <section class="home container" id="home" style="background-image: url('/static/img/Photoreg3.jpg');">
+        
+        <div class="home-text">
+            <h1 style="color: #fff;">Find your Next<br>Perfect place To<br>Live.</h1>
+            <a href="\registration" class="btn">Sign up</a>
+        </div>
+        
+    </section>
+    <!--ABout-->
+    <section class="about container" id="about">
+        <div class="about-img">
+            <img src="/static/img/hera_img.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <span>About us</span>
+            <h2>We provide the best<br>Property for you</h2>
+            <P>Welcome to PGsolve! We are dedicated to helping you find the best properties in your area. Our mission is to simplify your property search by offering a comprehensive platform that connects you with the most suitable options based on your unique preferences and requirements. </P>
+            
+            <p>Our team is passionate about real estate and committed to delivering an exceptional user experience. </p>
+            <p>Thank you for choosing PGsolve. We look forward to helping you find the best property that meets your needs.</P>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <!--sales-->
+    <section class="sales container" id="sales">
+        <!--box1-->
+        <div class="box">
+            <i class='bx bx-user'></i>
+            <h3>Make your Dream come true</h3>
+            <p>At PGsolve, we believe that everyone deserves to find their dream property. Whether it's a place to call home, an investment opportunity, or the perfect commercial space for your business, we are here to turn your dreams into reality.</p>
+
+        </div>
+        <!--box2-->
+         <div class="box">
+            <i class='bx bx-desktop'></i>
+            <h3>Start your membership</h3>
+            <p>Unlock exclusive benefits and gain access to the best properties in your area by starting your membership with PGsolve. Our membership plans are designed to provide you with enhanced features and personalized services, making your property search even more efficient and enjoyable.</p>
+
+        </div>
+        <!--box-->
+         <div class="box">
+            <i class='bx bx-home-alt'></i>
+            <h3>Enjoy Your New home</h3>
+            <p>Congratulations on finding your perfect property with PGsolve! We are thrilled to have been a part of your journey and can't wait for you to start enjoying your new home.Enjoy every moment in your new space, and thank you for choosing PGsolve to help make your dream come true.</p>
+
+        </div>
+
+
+    </section>
+    <!--Properties-->
+    <section class="properties container" id="properties">
+        <div class="heading">
+            <span>Recent</span>
+            <h2>Our feature Properties</h2>
+            <p>Our featured properties represent the best in quality, location, and value, offering you a glimpse of what makes each one special.</p>
+        </div>
+        <div class="properties-container container">
+            <!-- box1-->
+            <div class="box">
+                <img src="/static/img/t2.jpg" alt="">
+                <h3>$199</h3>
+                <div class="content">
+                    <div class="text">
+                        <h3>The palace</h3>
+                        <p>akurdi,pcmc</p>
+                    </div>
+                    <div class="icon">
+                        <i class='bx bx-bed' ><span>5</span></i>
+                        <i class='bx bx-bath' ><span>2</span></i>
+                </div>
+            </div>
+        </div>
+        <!--box2-->
+         <div class="box">
+                <img src="/static/img/t6.jpg" alt="">
+                <h3>$299</h3>
+                <div class="content">
+                    <div class="text">
+                        <h3>sweet homes</h3>
+                        <p>Nigadi,pcmc</p>
+                    </div>
+                    <div class="icon">
+                        <i class='bx bx-bed' ><span>3</span></i>
+                        <i class='bx bx-bath' ><span>2</span></i>
+                </div>
+            </div>
+        </div>
+         <!-- box3-->
+            <div class="box">
+                <img src="/static/img/t7.jpg" alt="">
+                <h3>$399</h3>
+                <div class="content">
+                    <div class="text">
+                        <h3>Life</h3>
+                        <p>vimannagar,pune</p>
+                    </div>
+                    <div class="icon">
+                        <i class='bx bx-bed' ><span>2</span></i>
+                        <i class='bx bx-bath' ><span>1</span></i>
+                </div>
+            </div>
+        </div>
+         <!-- box4-->
+            <div class="box">
+                <img src="/static/img/t5.jpg" alt="">
+                <h3>$249</h3>
+                <div class="content">
+                    <div class="text">
+                        <h3>skylight</h3>
+                        <p>Dhanori,pune</p>
+                    </div>
+                    <div class="icon">
+                        <i class='bx bx-bed' ><span>5</span></i>
+                        <i class='bx bx-bath' ><span>3</span></i>
+                </div>
+            </div>
+        </div>
+         <!-- box5-->
+            <div class="box">
+                <img src="/static/img/t4.jpg" alt="">
+                <h3>$999</h3>
+                <div class="content">
+                    <div class="text">
+                        <h3>skyone</h3>
+                        <p>viman nagar,pune</p>
+                    </div>
+                    <div class="icon">
+                        <i class='bx bx-bed' ><span>5</span></i>
+                        <i class='bx bx-bath' ><span>3</span></i>
+                </div>
+            </div>
+        </div>
+         <!-- box6-->
+            <div class="box">
+                <img src="/static/img/t3.jpg" alt="">
+                <h3>$399</h3>
+                <div class="content">
+                    <div class="text">
+                        <h3>Stanza living</h3>
+                        <p>akurdi,pcmc</p>
+                    </div>
+                    <div class="icon">
+                        <i class='bx bx-bed' ><span>5</span></i>
+                        <i class='bx bx-bath' ><span>2</span></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--news letter-->
+    <section class="newsletter container">
+        <h2>Have Question in mind?<br>Let us Help You</h2>
+        <form action="">
+            <input type="email" name="" id="email-box" placeholder="yourmail@gmail.com" required>
+            <input type="submit" value="send" class="btn">
+        </form>
+    </section>
+    <!--footer-->
+    <section class="footer">
+        <div class="footer-container container">
+            <h2>PGsolve</h2>
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <a href="#">Agency</a>
+                <a href="#">Building</a>
+                <a href="#">Rates</a>
+            </div>
+            <div class="footer-box">
+                <h3>Location</h3>
+                <a href="#">PCMC</a>
+                <a href="#">Akurdi</a>
+                <a href="#">Nigadi</a>
+        </div>
+        <div class="footer-box">
+                <h3>Contact</h3>
+                <a href="#">+91 8010015201</a>
+                <a href="#">prathmeshdeshpande@gmail.com</a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+    
+    </section>
+
+
+
+</body>
+</html>
